@@ -80,7 +80,7 @@ body{background:var(--off);color:var(--ink);font-family:'Inter',sans-serif;font-
 /* ── SECTION HEADING ── */
 .sec-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:24px;gap:16px}
 .sec-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--ink);letter-spacing:-.2px}
-.sec-sub{font-size:13px;color:var(--muted);margin-top:3px;font-weight:400}
+.sec-sub{font-size:13px;color:#4b5563;margin-top:3px;font-weight:400}
 .sec-rule{height:2px;background:linear-gradient(to right,var(--red),transparent);margin-bottom:28px;border-radius:2px}
 .sec-badge{background:var(--red-light);color:var(--red);border-radius:4px;padding:4px 12px;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;white-space:nowrap}
 
@@ -94,7 +94,7 @@ body{background:var(--off);color:var(--ink);font-family:'Inter',sans-serif;font-
 .kpi-label{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
 .kpi-val{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--ink);line-height:1}
 .kpi-val.accent{color:var(--red)}
-.kpi-desc{font-size:12px;color:var(--muted);margin-top:6px}
+.kpi-desc{font-size:12px;color:#4b5563;margin-top:6px}
 
 /* ── CHART CARDS ── */
 .chart-row{display:grid;grid-template-columns:1.65fr 1fr;gap:18px;margin-bottom:24px}
@@ -104,12 +104,12 @@ body{background:var(--off);color:var(--ink);font-family:'Inter',sans-serif;font-
 .crd.span2{grid-column:span 2}
 .crd-head{margin-bottom:18px}
 .crd-title{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:3px}
-.crd-desc{font-size:12px;color:var(--muted)}
+.crd-desc{font-size:12px;color:#4b5563}
 .crd-wrap{position:relative}
 
 /* ── FILTER BAR ── */
 .filter-bar{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:22px;box-shadow:var(--shadow)}
-.fl{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.fl{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#374151}
 select{background:var(--off);border:1.5px solid var(--border);border-radius:7px;color:var(--ink);padding:8px 32px 8px 12px;font-family:'Inter',sans-serif;font-size:13px;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236b7280'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;transition:border-color .2s;font-weight:500}
 select:focus{outline:none;border-color:var(--red)}
 input[type=text]{background:var(--off);border:1.5px solid var(--border);border-radius:7px;color:var(--ink);padding:8px 14px;font-family:'Inter',sans-serif;font-size:13px;transition:border-color .2s;width:280px}
@@ -140,7 +140,7 @@ input[type=text]::placeholder{color:var(--muted)}
 table{width:100%;border-collapse:collapse}
 thead tr{background:var(--off)}
 th{padding:12px 16px;text-align:left;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:600;border-bottom:1px solid var(--border);white-space:nowrap}
-td{padding:13px 16px;font-size:13px;color:var(--ink3);border-bottom:1px solid rgba(0,0,0,.04);vertical-align:top}
+td{padding:13px 16px;font-size:13px;color:#1f2937;border-bottom:1px solid rgba(0,0,0,.04);vertical-align:top}
 tr:last-child td{border-bottom:none}
 tbody tr:hover td{background:rgba(232,0,29,.025)}
 a.src{color:var(--red);text-decoration:none;font-size:11px;font-weight:500}
@@ -161,7 +161,7 @@ a.src:hover{text-decoration:underline}
 .subj-item:hover{background:var(--off)}
 .subj-item.active{background:var(--red-light);border-left:3px solid var(--red)}
 .si-icon{font-size:18px;width:28px;text-align:center;flex-shrink:0}
-.si-name{font-size:13px;font-weight:500;color:var(--ink);line-height:1.3}
+.si-name{font-size:13px;font-weight:500;color:#111827;line-height:1.3}
 .si-stream{font-size:10px;color:var(--muted)}
 .si-count{margin-left:auto;font-size:10px;color:var(--muted);background:#f3f4f6;padding:2px 8px;border-radius:10px;white-space:nowrap;font-weight:600}
 .subj-item.active .si-count{background:rgba(232,0,29,.15);color:var(--red)}
@@ -171,7 +171,7 @@ a.src:hover{text-decoration:underline}
 .qp-header{padding:22px 26px;background:linear-gradient(135deg,var(--ink2) 0%,#2a0005 100%);border-bottom:1px solid rgba(255,255,255,.07)}
 .qph-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:12px}
 .qph-title{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:#fff}
-.qph-sub{font-size:12px;color:rgba(255,255,255,.5);margin-top:3px}
+.qph-sub{font-size:12px;color:rgba(255,255,255,.75);margin-top:3px}
 .qph-stats{display:flex;gap:10px;flex-wrap:wrap}
 .qph-stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:6px;padding:8px 14px;text-align:center}
 .qps-num{font-size:18px;font-weight:700;color:#fff;font-family:'Playfair Display',serif}
@@ -184,11 +184,11 @@ a.src:hover{text-decoration:underline}
 .q-num-badge{font-family:'Playfair Display',serif;font-size:13px;font-weight:700;color:var(--red);background:var(--red-light);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .q-text{font-size:14px;color:var(--ink);font-weight:400;line-height:1.65;margin-bottom:14px;padding-left:38px}
 .q-options{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding-left:38px;margin-bottom:12px}
-.q-opt{background:var(--off);border:1.5px solid var(--border);border-radius:7px;padding:9px 14px;font-size:13px;color:var(--ink3);transition:all .15s;cursor:default}
+.q-opt{background:var(--off);border:1.5px solid var(--border);border-radius:7px;padding:9px 14px;font-size:13px;color:#1f1f1f;transition:all .15s;cursor:default}
 .q-opt.correct{background:var(--easy-bg);border-color:var(--easy);color:var(--easy);font-weight:600}
 .q-foot{display:flex;align-items:center;gap:10px;padding-left:38px;flex-wrap:wrap}
 .q-ans-badge{background:var(--easy-bg);border:1px solid rgba(5,150,105,.2);border-radius:5px;padding:4px 12px;font-size:11px;font-weight:600;color:var(--easy)}
-.q-topic-tag{font-size:11px;color:var(--muted);background:#f3f4f6;border-radius:4px;padding:3px 10px}
+.q-topic-tag{font-size:11px;color:#4b5563;background:#f3f4f6;border-radius:4px;padding:3px 10px}
 
 /* ── ANALYSIS CARDS ── */
 .anal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
@@ -201,7 +201,7 @@ a.src:hover{text-decoration:underline}
 .ac-stream{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
 .ac-row{display:flex;justify-content:space-between;align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--border);font-size:12px}
 .ac-row:last-child{border-bottom:none}
-.ac-k{color:var(--muted);font-weight:500}
+.ac-k{color:#4b5563;font-weight:500}
 .ac-v{color:var(--ink3);text-align:right;max-width:58%;}
 .ac-v.acc{color:var(--red);font-weight:700;font-size:18px}
 
@@ -209,22 +209,22 @@ a.src:hover{text-decoration:underline}
 .diff-dot{width:8px;height:8px;border-radius:50%;display:inline-block;vertical-align:middle}
 
 /* ── SOURCES ── */
-.vrow{display:grid;grid-template-columns:2.2fr 1fr .7fr 1.5fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--border);font-size:12px;align-items:start}
+.vrow{display:grid;grid-template-columns:2.2fr 1fr .7fr 1.5fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--border);font-size:12px;align-items:start;color:#374151}
 .vrow:last-child{border-bottom:none}
 .vhdr{display:grid;grid-template-columns:2.2fr 1fr .7fr 1.5fr;gap:16px;padding:10px 0;border-bottom:2px solid var(--border);margin-bottom:4px}
-.vh{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:600}
+.vh{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#374151;font-weight:600}
 .vrel-high{color:var(--easy);font-weight:600}
 .vrel-med{color:var(--mod);font-weight:600}
 
 /* ── NOTICE BOX ── */
-.notice{background:var(--cream);border:1px solid rgba(232,0,29,.15);border-left:4px solid var(--red);border-radius:8px;padding:16px 20px;font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:28px}
+.notice{background:var(--cream);border:1px solid rgba(232,0,29,.15);border-left:4px solid var(--red);border-radius:8px;padding:16px 20px;font-size:13px;color:#374151;line-height:1.8;margin-bottom:28px}
 .notice strong{color:var(--ink);font-weight:600}
 
 /* ── FOOTER ── */
 .site-footer{background:var(--ink2);border-top:1px solid rgba(255,255,255,.06);padding:28px 48px;margin-top:0}
 .footer-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
 .footer-logo{display:flex;align-items:center;gap:14px}
-.footer-logo img{height:28px;width:auto;filter:brightness(10) saturate(0) opacity(.7)}
+.footer-logo img{height:32px;width:auto;filter:brightness(0) invert(1);opacity:.9}
 .footer-tagline{font-size:12px;color:rgba(255,255,255,.4);letter-spacing:.5px}
 .footer-right{text-align:right;font-size:11px;color:rgba(255,255,255,.3);line-height:1.8}
 .footer-right span{color:var(--red)}
@@ -252,11 +252,182 @@ a.src:hover{text-decoration:underline}
   .header-main-title{font-size:16px}
   .header-right-block{display:none}
 }
+
+/* ── UX ENHANCEMENTS ── */
+/* Progress bar */
+.progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(to right,var(--red),#ff6b35);z-index:9999;transition:width .1s linear;border-radius:0 2px 2px 0}
+
+/* Smooth page transitions */
+.page{animation:fadeIn .3s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* Card hover lift */
+.kpi,.crd,.anal-card,.tcard{transition:all .25s cubic-bezier(.4,0,.2,1)}
+
+/* Better focus states */
+select:focus,input[type=text]:focus{box-shadow:0 0 0 3px rgba(232,0,29,.12)}
+
+/* Sticky CTA button - Download PDF */
+.sticky-pdf-btn{
+  position:fixed;bottom:28px;right:28px;z-index:500;
+  background:linear-gradient(135deg,var(--red),#c0001a);
+  color:#fff;border:none;border-radius:50px;
+  padding:14px 22px;font-size:13px;font-weight:700;
+  cursor:pointer;box-shadow:0 8px 32px rgba(232,0,29,.35);
+  display:flex;align-items:center;gap:8px;
+  transition:all .25s;letter-spacing:.3px;
+  font-family:'Inter',sans-serif;
+}
+.sticky-pdf-btn:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(232,0,29,.45)}
+.sticky-pdf-btn.hidden{opacity:0;pointer-events:none;transform:translateY(20px)}
+.sticky-pdf-btn svg{width:16px;height:16px;flex-shrink:0}
+
+/* Back to top */
+.back-top{
+  position:fixed;bottom:28px;left:28px;z-index:500;
+  background:#fff;color:var(--ink);border:1.5px solid var(--border);
+  border-radius:50%;width:44px;height:44px;
+  cursor:pointer;box-shadow:var(--shadow-md);
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;transition:all .25s;opacity:0;pointer-events:none;
+}
+.back-top.show{opacity:1;pointer-events:all}
+.back-top:hover{border-color:var(--red);color:var(--red)}
+
+/* Subject item active pulse */
+.subj-item.active .si-icon{animation:iconPop .3s ease}
+@keyframes iconPop{0%{transform:scale(1)}50%{transform:scale(1.3)}100%{transform:scale(1)}}
+
+/* Hero stat numbers counter */
+.hstat-num{font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:#fff;line-height:1}
+
+/* Q item number circle hover */
+.q-num-badge{transition:background .2s,color .2s}
+.q-item:hover .q-num-badge{background:var(--red);color:#fff}
+
+/* Tab indicator dot */
+.ntab.active::before{content:'';width:5px;height:5px;background:var(--red);border-radius:50%;display:inline-block;margin-right:6px}
+
+/* Search highlight */
+.search-highlight{background:rgba(232,0,29,.12);border-radius:2px;padding:0 2px}
+
+/* Pill transition */
+.pill{transition:all .15s}
+
+/* PDF Modal */
+.pdf-modal-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:1000;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;transition:opacity .3s;
+  backdrop-filter:blur(4px);
+}
+.pdf-modal-overlay.open{opacity:1;pointer-events:all}
+.pdf-modal{
+  background:#fff;border-radius:16px;padding:36px 40px;
+  max-width:460px;width:90%;box-shadow:0 24px 80px rgba(0,0,0,.2);
+  transform:translateY(20px);transition:transform .3s;
+  font-family:'Inter',sans-serif;
+}
+.pdf-modal-overlay.open .pdf-modal{transform:translateY(0)}
+.pm-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.pm-title{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--ink)}
+.pm-close{background:none;border:none;font-size:22px;cursor:pointer;color:var(--muted);padding:4px;line-height:1;transition:color .2s}
+.pm-close:hover{color:var(--red)}
+.pm-sub{font-size:13px;color:var(--muted);margin-bottom:24px}
+.pm-options{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.pm-option{
+  background:var(--off);border:2px solid var(--border);border-radius:10px;
+  padding:14px 16px;cursor:pointer;display:flex;align-items:center;gap:12px;
+  transition:all .2s;text-align:left;
+}
+.pm-option:hover,.pm-option.selected{border-color:var(--red);background:var(--red-light)}
+.pm-option-icon{font-size:22px;flex-shrink:0}
+.pm-option-title{font-size:14px;font-weight:600;color:var(--ink)}
+.pm-option-desc{font-size:12px;color:var(--muted);margin-top:2px}
+.pm-btn{
+  width:100%;background:linear-gradient(135deg,var(--red),var(--red2));
+  color:#fff;border:none;border-radius:10px;padding:14px;
+  font-size:14px;font-weight:700;cursor:pointer;
+  font-family:'Inter',sans-serif;letter-spacing:.3px;
+  transition:all .25s;display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.pm-btn:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(232,0,29,.3)}
+.pm-btn:disabled{opacity:.6;cursor:not-allowed;transform:none}
+.pm-note{font-size:11px;color:var(--muted);text-align:center;margin-top:12px}
+.pm-watermark-preview{
+  background:var(--red-light);border:1px dashed rgba(232,0,29,.3);
+  border-radius:8px;padding:10px 14px;margin-bottom:16px;
+  font-size:11px;color:var(--red);display:flex;align-items:center;gap:8px;font-weight:500;
+}
 </style>
 </head>
 <body>
 
 <!-- TOP ANNOUNCEMENT BAR -->
+<div class="progress-bar" id="progressBar"></div>
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<button class="sticky-pdf-btn" id="stickyPdf" onclick="openPdfModal()">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+  Download PDF
+</button>
+
+<!-- PDF Modal -->
+<div class="pdf-modal-overlay" id="pdfModal" onclick="closePdfModalOutside(event)">
+  <div class="pdf-modal">
+    <div class="pm-header">
+      <div class="pm-title">📥 Download Questions</div>
+      <button class="pm-close" onclick="closePdfModal()">✕</button>
+    </div>
+    <div class="pm-sub">Download CUET UG practice questions as PDF with Adda247 branding</div>
+    <div class="pm-watermark-preview">
+      🏷️ All PDFs include official <strong>Adda247 watermark</strong> &amp; branding
+    </div>
+    <div class="pm-options" id="pmOptions">
+      <button class="pm-option selected" onclick="selectPdfSubject(this,'English')">
+        <span class="pm-option-icon">📖</span>
+        <div><div class="pm-option-title">English — 30 Questions</div><div class="pm-option-desc">Vocabulary, Grammar, Reading Comprehension</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'Physics')">
+        <span class="pm-option-icon">⚛️</span>
+        <div><div class="pm-option-title">Physics — 30 Questions</div><div class="pm-option-desc">Electrostatics, Optics, Modern Physics</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'Chemistry')">
+        <span class="pm-option-icon">🧪</span>
+        <div><div class="pm-option-title">Chemistry — 30 Questions</div><div class="pm-option-desc">Organic, Physical, Inorganic Chemistry</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'Biology')">
+        <span class="pm-option-icon">🌿</span>
+        <div><div class="pm-option-title">Biology — 30 Questions</div><div class="pm-option-desc">Genetics, Physiology, Biotechnology</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'Mathematics')">
+        <span class="pm-option-icon">📐</span>
+        <div><div class="pm-option-title">Mathematics — 30 Questions</div><div class="pm-option-desc">Calculus, Probability, Matrices</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'History')">
+        <span class="pm-option-icon">🏛️</span>
+        <div><div class="pm-option-title">History — 30 Questions</div><div class="pm-option-desc">Freedom Movement, Mughal Era, Ancient India</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'Economics')">
+        <span class="pm-option-icon">📊</span>
+        <div><div class="pm-option-title">Economics — 30 Questions</div><div class="pm-option-desc">Micro, Macro, Indian Economic Development</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'General Test')">
+        <span class="pm-option-icon">🧠</span>
+        <div><div class="pm-option-title">General Test — 30 Questions</div><div class="pm-option-desc">Quantitative, Reasoning, GK</div></div>
+      </button>
+      <button class="pm-option" onclick="selectPdfSubject(this,'ALL')">
+        <span class="pm-option-icon">📚</span>
+        <div><div class="pm-option-title">All Subjects — Complete Pack</div><div class="pm-option-desc">390+ questions across all 13 subjects</div></div>
+      </button>
+    </div>
+    <button class="pm-btn" id="pmDownloadBtn" onclick="generatePDF()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+      Generate &amp; Download PDF
+    </button>
+    <div class="pm-note">⚡ PDF generates instantly in your browser • No signup required</div>
+  </div>
+</div>
+
 <div class="topbar">
   <div class="topbar-left">📚 &nbsp; CUET UG 2026 Exam Analysis Updated — May 2026</div>
   <div class="topbar-right">
@@ -281,7 +452,7 @@ a.src:hover{text-decoration:underline}
     <!-- Right: Tags -->
     <div class="header-right-block">
       <span class="header-year-pill">Memory-Based</span>
-      <span class="header-tag">NTA CUET</span>
+      <span class="header-tag">5 Year Analysis</span>
     </div>
   </div>
 </header>
@@ -1122,7 +1293,7 @@ function buildSubjectList() {
   list.innerHTML = SUBJECTS.map((s, i) => `
     <div class="subj-item${i===0?' active':''}" onclick="selectSubject('${s.name}',this)">
       <span class="subj-icon">${s.icon}</span>
-      <div><div class="subj-name">${s.name}</div><div style="font-size:10px;color:var(--dim)">${s.stream}</div></div>
+      <div><div class="subj-name">${s.name}</div><div style="font-size:10px;color:#6b7280">${s.stream}</div></div>
       <span class="subj-count">30 Qs</span>
     </div>`).join('');
   selectSubjectByName(SUBJECTS[0].name);
@@ -1162,7 +1333,7 @@ function selectSubjectByName(name) {
           </div>
           <div class="q-foot">
             <div class="q-ans">✓ Answer: <span>${q.ans}</span></div>
-            <span style="font-size:11px;color:var(--dim)">Topic: ${q.topic}</span>
+            <span style="font-size:11px;color:#6b7280">Topic: ${q.topic}</span>
           </div>
         </div>`).join('')}
     </div>`;
@@ -1180,11 +1351,11 @@ function renderWeightage(data) {
     const ti = r.trend==='Increasing'?'↑':r.trend==='Decreasing'?'↓':'→';
     return `<tr data-subject="${r.s}" data-trend="${r.trend}">
       <td><span class="pill p-subj">${r.s}</span></td>
-      <td style="color:var(--white);font-weight:500">${r.t}</td>
-      <td style="color:var(--dim)">${r.y22}</td><td style="color:var(--dim)">${r.y23}</td>
-      <td style="color:var(--dim)">${r.y24}</td><td style="color:var(--dim)">${r.y25}</td>
-      <td style="color:var(--dim)">${r.y26}*</td>
-      <td style="color:var(--white);font-weight:600">${t}</td>
+      <td style="color:#1f1f1f;font-weight:500">${r.t}</td>
+      <td style="color:#6b7280">${r.y22}</td><td style="color:#6b7280">${r.y23}</td>
+      <td style="color:#6b7280">${r.y24}</td><td style="color:#6b7280">${r.y25}</td>
+      <td style="color:#6b7280">${r.y26}*</td>
+      <td style="color:#1f1f1f;font-weight:600">${t}</td>
       <td><span class="wbar"><span class="wfill" style="width:${bw}%"></span></span>${pct}%</td>
       <td><span class="pill ${tc}">${ti} ${r.trend}</span></td>
     </tr>`;
@@ -1220,7 +1391,7 @@ function renderAnalysis() {
       <td><span class="pill ${dmap(s.diff2025)}">${s.diff2025}</span></td>
       <td><span class="pill ${dmap(s.diff2026)}">${s.diff2026}</span></td>
       <td><span class="pill ${dmap(s.overall)}">${s.overall}</span></td>
-      <td style="font-size:11px;color:var(--dim)">${s.obs.slice(0,60)}…</td>
+      <td style="font-size:11px;color:#6b7280">${s.obs.slice(0,60)}…</td>
     </tr>`;
   }).join('');
 }
@@ -1228,21 +1399,21 @@ function renderAnalysis() {
 // Sources
 function renderSources() {
   document.getElementById('srcBody').innerHTML = SOURCES_DATA.map(s => `
-    <div class="vrow">
+    <div class="vrow" style="color:#374151">
       <div><a href="${s.url}" target="_blank" class="src">${s.t}</a></div>
-      <div style="color:var(--dim)">${s.type}</div>
+      <div style="color:#6b7280">${s.type}</div>
       <div style="color:${s.rel==='High'?'var(--easy)':'var(--mod)'}">${s.rel==='High'?'✓ High':'~ Medium'}</div>
-      <div style="font-size:11px;color:var(--dim)">${s.notes}</div>
+      <div style="font-size:11px;color:#6b7280">${s.notes}</div>
     </div>`).join('');
 }
 
 // ══════════ CHARTS ══════════
 function buildCharts() {
   const red = '#e8001d', red2 = '#c0001a', redA = a => `rgba(232,0,29,${a})`;
-  const white = '#f2f2ee', dim = '#888';
+  const white = '#1f1f1f', dim = '#4b5563';
 
   Chart.defaults.color = white;
-  Chart.defaults.font.family = 'DM Sans';
+  Chart.defaults.font.family = 'Inter';
 
   // BAR - top 14 topics by 5Y total
   const topTopics = [...WEIGHTAGE_DATA].sort((a,b)=>(b.y22+b.y23+b.y24+b.y25+b.y26)-(a.y22+a.y23+a.y24+a.y25+a.y26)).slice(0,14);
@@ -1258,31 +1429,35 @@ function buildCharts() {
         {label:'2026*',data:topTopics.map(t=>t.y26),backgroundColor:red,borderRadius:2},
       ]
     },
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:white,font:{size:10},boxWidth:10}}},scales:{x:{ticks:{color:dim,font:{size:9}},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:dim},grid:{color:'rgba(255,255,255,.04)'}}}}
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#1f1f1f',font:{size:10},boxWidth:10}}},scales:{x:{ticks:{color:'#6b7280',font:{size:9}},grid:{color:'rgba(0,0,0,.07)'}},y:{ticks:{color:'#4b5563'},grid:{color:'rgba(0,0,0,.07)'}}}}
   });
 
   // PIE
   const sm = {};
   WEIGHTAGE_DATA.forEach(r=>{sm[r.s]=(sm[r.s]||0)+(r.y22+r.y23+r.y24+r.y25+r.y26)});
   const sl = Object.keys(sm), sd = Object.values(sm);
-  const pc = ['#e8001d','#c0001a','#ff3347','#990012','#ff667a','#7a0010','#ffaaaa','#4d0009','#ffd4d4','#330006','#ff8899','#660010','#bb0015'];
-  new Chart(document.getElementById('pieChart'),{type:'pie',data:{labels:sl,datasets:[{data:sd,backgroundColor:pc.slice(0,sl.length),borderColor:'#080808',borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:white,font:{size:10},boxWidth:11}}}}});
+  const pc = [
+  '#2563eb','#7c3aed','#059669','#d97706','#e8001d',
+  '#0891b2','#dc2626','#65a30d','#9333ea','#0284c7',
+  '#c2410c','#15803d','#a21caf'
+];
+  new Chart(document.getElementById('pieChart'),{type:'pie',data:{labels:sl,datasets:[{data:sd,backgroundColor:pc.slice(0,sl.length),borderColor:'#080808',borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#1f1f1f',font:{size:10},boxWidth:11}}}}});
 
   // LINE - top 6 topics trend
   const top6 = [...WEIGHTAGE_DATA].sort((a,b)=>(b.y22+b.y23+b.y24+b.y25+b.y26)-(a.y22+a.y23+a.y24+a.y25+a.y26)).slice(0,6);
   const lc = [red,'#ff6677','#cc0016','#ff99a5','#7a0010','#ffcccc'];
-  new Chart(document.getElementById('lineChart'),{type:'line',data:{labels:['2022','2023','2024','2025','2026*'],datasets:top6.map((t,i)=>({label:t.t.length>20?t.t.slice(0,18)+'…':t.t,data:[t.y22,t.y23,t.y24,t.y25,t.y26],borderColor:lc[i],backgroundColor:'transparent',borderWidth:2,pointRadius:4,pointBackgroundColor:lc[i],tension:0.3}))},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:white,font:{size:10},boxWidth:11}}},scales:{x:{ticks:{color:dim},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:dim},grid:{color:'rgba(255,255,255,.04)'}}}}});
+  new Chart(document.getElementById('lineChart'),{type:'line',data:{labels:['2022','2023','2024','2025','2026*'],datasets:top6.map((t,i)=>({label:t.t.length>20?t.t.slice(0,18)+'…':t.t,data:[t.y22,t.y23,t.y24,t.y25,t.y26],borderColor:lc[i],backgroundColor:'transparent',borderWidth:2,pointRadius:4,pointBackgroundColor:lc[i],tension:0.3}))},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:'#1f1f1f',font:{size:10},boxWidth:11}}},scales:{x:{ticks:{color:'#4b5563'},grid:{color:'rgba(0,0,0,.07)'}},y:{ticks:{color:'#4b5563'},grid:{color:'rgba(0,0,0,.07)'}}}}});
 
   // DOUGHNUT - difficulty
-  new Chart(document.getElementById('doughnutChart'),{type:'doughnut',data:{labels:['Easy','Moderate','Hard'],datasets:[{data:[38,47,15],backgroundColor:['rgba(0,196,114,.8)','rgba(255,180,0,.8)',red],borderColor:'#080808',borderWidth:3,hoverOffset:8}]},options:{responsive:true,maintainAspectRatio:false,cutout:'65%',plugins:{legend:{position:'bottom',labels:{color:white,font:{size:11},boxWidth:13}}}}});
+  new Chart(document.getElementById('doughnutChart'),{type:'doughnut',data:{labels:['Easy','Moderate','Hard'],datasets:[{data:[38,47,15],backgroundColor:['rgba(0,196,114,.8)','rgba(255,180,0,.8)',red],borderColor:'#080808',borderWidth:3,hoverOffset:8}]},options:{responsive:true,maintainAspectRatio:false,cutout:'65%',plugins:{legend:{position:'bottom',labels:{color:'#1f1f1f',font:{size:11},boxWidth:12}}}}});
 
   // DIFF TREND by year
-  new Chart(document.getElementById('diffTrend'),{type:'radar',data:{labels:['English','Physics','Chemistry','Biology','Mathematics','History','Economics','Pol. Sci','Geography','General Test'],datasets:[{label:'2022',data:[1,1,1,0,1,0,1,0,1,0],borderColor:redA(0.4),backgroundColor:redA(0.05),pointRadius:3},{label:'2024',data:[1,2,2,1,2,1,2,1,1,0],borderColor:redA(0.7),backgroundColor:redA(0.07),pointRadius:3},{label:'2025',data:[1,1,1,1,1,1,1,1,1,1],borderColor:red,backgroundColor:redA(0.1),pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:white,font:{size:10},boxWidth:11}}},scales:{r:{ticks:{color:dim,font:{size:9},stepSize:1},grid:{color:'rgba(255,255,255,.1)'},pointLabels:{color:dim,font:{size:9}},min:0,max:2}}}});
+  new Chart(document.getElementById('diffTrend'),{type:'radar',data:{labels:['English','Physics','Chemistry','Biology','Mathematics','History','Economics','Pol. Sci','Geography','General Test'],datasets:[{label:'2022',data:[1,1,1,0,1,0,1,0,1,0],borderColor:redA(0.4),backgroundColor:redA(0.05),pointRadius:3},{label:'2024',data:[1,2,2,1,2,1,2,1,1,0],borderColor:redA(0.7),backgroundColor:redA(0.07),pointRadius:3},{label:'2025',data:[1,1,1,1,1,1,1,1,1,1],borderColor:red,backgroundColor:redA(0.1),pointRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:'#1f1f1f',font:{size:10},boxWidth:11}}},scales:{r:{ticks:{color:dim,font:{size:9},stepSize:1},grid:{color:'rgba(0,0,0,.12)'},pointLabels:{color:'#4b5563',font:{size:9}},min:0,max:2}}}});
 
   // STREAM BAR
   const streamMap = {Science:0,Commerce:0,Humanities:0,Language:0,Aptitude:0};
   SUBJECTS.forEach(s=>{const qCount=(SAMPLE_QS[s.name]||[]).length;streamMap[s.stream]=(streamMap[s.stream]||0)+qCount});
-  new Chart(document.getElementById('streamChart'),{type:'bar',data:{labels:Object.keys(streamMap),datasets:[{label:'Sample Qs',data:Object.values(streamMap),backgroundColor:[red,redA(0.7),redA(0.55),redA(0.4),redA(0.3)],borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:dim},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:white,font:{size:11}},grid:{color:'rgba(255,255,255,.04)'}}}}});
+  new Chart(document.getElementById('streamChart'),{type:'bar',data:{labels:Object.keys(streamMap),datasets:[{label:'Sample Qs',data:Object.values(streamMap),backgroundColor:[red,redA(0.7),redA(0.55),redA(0.4),redA(0.3)],borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#4b5563'},grid:{color:'rgba(0,0,0,.07)'}},y:{ticks:{color:'#1f1f1f',font:{size:11}},grid:{color:'rgba(0,0,0,.07)'}}}}});
 }
 
 // ══════════ INIT ══════════
@@ -1294,6 +1469,242 @@ window.onload = function(){
   buildCharts();
 };
 
+
+
+// ══════════ UX: SCROLL PROGRESS + BACK TO TOP ══════════
+window.addEventListener('scroll', () => {
+  const scrollTop = document.documentElement.scrollTop;
+  const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  const bar = document.getElementById('progressBar');
+  if(bar) bar.style.width = pct + '%';
+  
+  const bt = document.getElementById('backTop');
+  if(bt) { scrollTop > 400 ? bt.classList.add('show') : bt.classList.remove('show'); }
+  
+  const pdf = document.getElementById('stickyPdf');
+  if(pdf) { scrollTop > 200 ? pdf.classList.remove('hidden') : pdf.classList.add('hidden'); }
+});
+
+// Hide PDF btn initially
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('stickyPdf');
+  if(btn) btn.classList.add('hidden');
+});
+
+// ══════════ PDF MODAL ══════════
+let selectedPdfSubject = 'English';
+
+function openPdfModal() {
+  document.getElementById('pdfModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closePdfModal() {
+  document.getElementById('pdfModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function closePdfModalOutside(e) {
+  if(e.target.id === 'pdfModal') closePdfModal();
+}
+function selectPdfSubject(el, subj) {
+  document.querySelectorAll('.pm-option').forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedPdfSubject = subj;
+}
+
+// ══════════ PDF GENERATION WITH ADDA247 WATERMARK ══════════
+function generatePDF() {
+  const btn = document.getElementById('pmDownloadBtn');
+  btn.disabled = true;
+  btn.innerHTML = '⏳ Generating PDF...';
+
+  setTimeout(() => {
+    try {
+      const subjectsToExport = selectedPdfSubject === 'ALL'
+        ? Object.keys(SAMPLE_QS)
+        : [selectedPdfSubject];
+
+      // Build print window
+      const printWin = window.open('', '_blank', 'width=900,height=700');
+      
+      const adda247LogoB64 = document.querySelector('header img').src;
+      
+      let htmlContent = `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CUET UG Practice Questions — Adda247</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',Arial,sans-serif; font-size:13px; color:#111; background:#fff; }
+  
+  /* WATERMARK */
+  .watermark {
+    position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-35deg);
+    font-size:72px; font-weight:900; color:rgba(232,0,29,0.04);
+    white-space:nowrap; pointer-events:none; z-index:0; letter-spacing:4px;
+    font-family:'Inter',sans-serif;
+  }
+  
+  /* HEADER */
+  .pdf-header {
+    background:linear-gradient(135deg,#0e0e0e,#1a0003);
+    color:#fff; padding:24px 40px; display:flex;
+    align-items:center; justify-content:space-between;
+    margin-bottom:0;
+  }
+  .pdf-header-logo { height:36px; filter:brightness(0) invert(1); }
+  .pdf-header-right { text-align:right; }
+  .pdf-header-title { font-family:'Playfair Display',serif; font-size:18px; font-weight:800; color:#fff; }
+  .pdf-header-sub { font-size:10px; color:rgba(255,255,255,.6); letter-spacing:2px; text-transform:uppercase; margin-top:3px; }
+  .pdf-red-bar { height:4px; background:linear-gradient(to right,#e8001d,#ff6b35); margin-bottom:32px; }
+  
+  /* META STRIP */
+  .meta-strip {
+    background:#f8f7f4; border:1px solid #e5e7eb;
+    padding:12px 40px; display:flex; gap:32px; margin-bottom:32px;
+    font-size:12px; color:#6b7280;
+  }
+  .meta-item strong { color:#111; }
+  
+  /* SUBJECT HEADER */
+  .subj-header {
+    padding:12px 40px 8px; border-bottom:2px solid #e8001d;
+    margin-bottom:20px; margin-top:24px;
+    display:flex; align-items:center; gap:12px;
+  }
+  .subj-header-icon { font-size:22px; }
+  .subj-header-name { font-family:'Playfair Display',serif; font-size:20px; font-weight:700; color:#0e0e0e; }
+  .subj-header-count { margin-left:auto; font-size:11px; background:#fff0f1; color:#e8001d; border-radius:4px; padding:3px 10px; font-weight:600; }
+  
+  /* QUESTION */
+  .q-block { padding:16px 40px; border-bottom:1px solid #f3f4f6; page-break-inside:avoid; }
+  .q-block:last-child { border-bottom:none; }
+  .q-meta-row { display:flex; align-items:center; gap:8px; margin-bottom:8px; flex-wrap:wrap; }
+  .q-num { font-family:'Playfair Display',serif; font-size:13px; font-weight:700; color:#e8001d; background:#fff0f1; width:26px; height:26px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .q-text { font-size:13px; color:#111; line-height:1.65; margin-bottom:12px; font-weight:500; }
+  .q-options-grid { display:grid; grid-template-columns:1fr 1fr; gap:6px 20px; margin-bottom:10px; margin-left:34px; }
+  .q-opt-item { font-size:12px; color:#374151; padding:6px 10px; background:#f8f7f4; border-radius:5px; border:1px solid #e5e7eb; }
+  .q-opt-item.correct { background:#ecfdf5; border-color:#059669; color:#059669; font-weight:600; }
+  .q-ans-row { margin-left:34px; display:flex; align-items:center; gap:10px; }
+  .q-ans-tag { font-size:11px; font-weight:600; color:#059669; background:#ecfdf5; border-radius:4px; padding:3px 10px; border:1px solid rgba(5,150,105,.2); }
+  .q-topic-tag { font-size:10px; color:#6b7280; background:#f3f4f6; border-radius:3px; padding:2px 8px; }
+  .q-year-tag { font-size:10px; color:#e8001d; background:#fff0f1; border-radius:3px; padding:2px 8px; }
+  .q-diff-easy { font-size:10px; color:#059669; background:#ecfdf5; border-radius:3px; padding:2px 8px; }
+  .q-diff-mod  { font-size:10px; color:#d97706; background:#fffbeb; border-radius:3px; padding:2px 8px; }
+  .q-diff-hard { font-size:10px; color:#dc2626; background:#fef2f2; border-radius:3px; padding:2px 8px; }
+  
+  /* FOOTER */
+  .pdf-footer {
+    position:running(footer); border-top:1px solid #e5e7eb;
+    padding:10px 40px; display:flex; align-items:center; justify-content:space-between;
+    font-size:10px; color:#9ca3af; background:#fff;
+  }
+  .pdf-footer-adda { color:#e8001d; font-weight:700; }
+  
+  @page { margin:0; }
+  @media print {
+    .watermark { position:fixed; }
+    .pdf-footer { position:fixed; bottom:0; left:0; right:0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="watermark">Adda247</div>
+
+<!-- HEADER -->
+<div class="pdf-header">
+  <img src="${adda247LogoB64}" alt="Adda247" class="pdf-header-logo">
+  <div class="pdf-header-right">
+    <div class="pdf-header-title">CUET UG Practice Questions</div>
+    <div class="pdf-header-sub">5-Year Intelligence Pack · 2022–2026</div>
+  </div>
+</div>
+<div class="pdf-red-bar"></div>
+
+<!-- META -->
+<div class="meta-strip">
+  <div class="meta-item"><strong>Subject:</strong> ${selectedPdfSubject === 'ALL' ? 'All Subjects (Complete Pack)' : selectedPdfSubject}</div>
+  <div class="meta-item"><strong>Questions:</strong> ${selectedPdfSubject === 'ALL' ? '390+' : '30'}</div>
+  <div class="meta-item"><strong>Pattern:</strong> CUET UG 2022–2026 Memory-Based</div>
+  <div class="meta-item"><strong>By:</strong> Adda247 Education Group</div>
+  <div class="meta-item"><strong>Generated:</strong> ${new Date().toLocaleDateString('en-IN', {day:'numeric',month:'long',year:'numeric'})}</div>
+</div>`;
+
+      // Add questions for each subject
+      const subjectIcons = {
+        'English':'📖','Physics':'⚛️','Chemistry':'🧪','Biology':'🌿','Mathematics':'📐',
+        'History':'🏛️','Political Science':'🗳️','Economics':'📊','Geography':'🗺️',
+        'General Test':'🧠','Accountancy':'📒','Business Studies':'💼','Psychology':'🧬'
+      };
+
+      subjectsToExport.forEach(subj => {
+        const qs = SAMPLE_QS[subj] || [];
+        if(!qs.length) return;
+        
+        htmlContent += `<div class="subj-header">
+          <span class="subj-header-icon">${subjectIcons[subj] || '📚'}</span>
+          <span class="subj-header-name">${subj}</span>
+          <span class="subj-header-count">${qs.length} Questions</span>
+        </div>`;
+        
+        qs.forEach((q, i) => {
+          const diffClass = q.diff === 'Easy' ? 'q-diff-easy' : q.diff === 'Hard' ? 'q-diff-hard' : 'q-diff-mod';
+          const optsHtml = q.opts.map(o => {
+            const isCorrect = o.startsWith(q.ans + ')');
+            return `<div class="q-opt-item${isCorrect ? ' correct' : ''}">${o}</div>`;
+          }).join('');
+          
+          htmlContent += `<div class="q-block">
+            <div class="q-meta-row">
+              <div class="q-num">${i+1}</div>
+              <span class="q-year-tag">${q.year}</span>
+              <span class="${diffClass}">${q.diff}</span>
+            </div>
+            <div class="q-text" style="margin-left:34px">${q.q}</div>
+            <div class="q-options-grid">${optsHtml}</div>
+            <div class="q-ans-row">
+              <span class="q-ans-tag">✓ Answer: ${q.ans}</span>
+              <span class="q-topic-tag">${q.topic}</span>
+            </div>
+          </div>`;
+        });
+      });
+
+      htmlContent += `
+<div class="pdf-footer">
+  <span>© ${new Date().getFullYear()} <span class="pdf-footer-adda">Adda247 Education Group</span> — India's Largest Learning Platform</span>
+  <span>CUET UG Intelligence Pack | adda247.com</span>
+</div>
+</body></html>`;
+
+      printWin.document.write(htmlContent);
+      printWin.document.close();
+      
+      printWin.onload = () => {
+        setTimeout(() => {
+          printWin.print();
+          btn.disabled = false;
+          btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg> Generate & Download PDF';
+          closePdfModal();
+        }, 800);
+      };
+      
+    } catch(err) {
+      console.error(err);
+      btn.disabled = false;
+      btn.innerHTML = 'Try Again';
+    }
+  }, 400);
+}
+
+// ══════════ UX: KEYBOARD SHORTCUTS ══════════
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape') closePdfModal();
+  if(e.ctrlKey && e.key === 'p') { e.preventDefault(); openPdfModal(); }
+});
 </script>
 </body>
 </html>
